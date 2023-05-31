@@ -1,0 +1,12 @@
+@import "./../../../assets/variables";
+
+.buttonCommon {
+  height: 65px;
+  border-radius: 32px;
+}
+
+@media all and (max-width: $small-mobile-width){
+  .buttonCommon {
+    height: 55px;
+  }
+}
